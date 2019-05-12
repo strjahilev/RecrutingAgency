@@ -1,0 +1,251 @@
+/*навигация*/
+.navbar{
+    background: rgba(9, 129, 181, 0.1);
+    font-size: 20px;
+    height: auto;
+
+}
+.navbar .work-a{
+    font-size: 30px;
+}
+.navbar p{
+    color: #090759;
+    -webkit-text-fill-color: #090759;
+    -webkit-text-stroke: 1px red;
+}
+.navbar a{
+    color: #090759;
+    -webkit-text-fill-color: #090759;
+    -webkit-text-stroke: 1px red;
+}
+.navbar .navbar-toggler{
+    background: rgb(9,129,181);
+    color: red;
+}
+.navbar .inner{
+    border-right: 2px solid;
+    border-right-color: #090759;
+    -webkit-text-fill-color: #090759;
+    -webkit-text-stroke: 1px red;
+}
+
+/*заголовок*/
+.header {
+
+    background-image: url("../img/img-header-5.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+
+
+   }
+.header .cover{
+    background: rgba(254, 254, 254, 0.4);
+    height: 100%;
+}
+.header .container-fluid{
+    height: 560px;
+}
+.header .head-t1{
+    padding-top: 100px;
+    padding-left: 100px;
+    text-align: left;
+}
+.header .head-t2{
+    text-align: right;
+}
+.header p {
+    font-size: 80px;
+}
+
+@media screen and (max-width: 992px ) {
+    .header p {
+        font-size:70px;
+        }
+    .header .head-t1{
+        padding-top: 150px;
+    }
+}
+
+@media screen and (max-width: 768px ) {
+    .header p {
+        font-size:50px;
+    }
+    .header .head-t1{
+        padding-top: 200px;
+    }
+}
+@media screen and (max-width: 576px ) {
+    .header p {
+        font-size:40px;
+    }
+    .header .head-t1{
+        padding-top: 230px;
+    }
+
+}
+
+.header p{
+    font-family: "Gill Sans MT","sans-serif";
+    color: #090759;
+    text-shadow: 2px 4px 3px rgba(9, 7, 89, 0.52);
+}
+/*h-1*/
+.h-1 .container-fluid{
+    height: 269px;
+    background: rgba(9, 129, 181, 0.1);
+}
+.h-1 .row{
+    padding-top: 30px;
+}
+.h-1 p{
+    font-size: 70px;
+}
+@media screen and (max-width: 992px ){
+    .h-1 p{
+        font-size: 50px;
+    }
+}
+@media screen and (max-width: 768px ){
+    .h-1 p{
+        font-size: 40px;
+    }
+}
+@media screen and (max-width: 576px ){
+    .h-1 p{
+        font-size: 40px;
+    }
+    .h-1 .row{
+        padding-top: 60px;
+    }
+}
+.h-1 p{
+
+    font-family: "Gill Sans MT","sans-serif";
+    color: red;
+    text-shadow: 2px 4px 3px rgba(200, 13, 5, 0.42);
+}
+
+
+/*blog*/
+.blog{
+    background-image: url("../img/img-2header3.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+}
+.blog .cover{
+    background: rgba(254, 254, 254, 0.4);
+    height: 100%;
+}
+.blog .container-fluid{
+    height: 850px;
+}
+.blog .row {
+    padding-top: 250px;
+}
+.blog .card{
+
+    height: 300px;
+    width: 100%;
+
+}
+
+.blog .card-image{
+    height: 100%;
+}
+.blog .card-img-overlay{
+    padding-top: 80px;
+}
+
+.blog p{
+    text-align: center;
+    font-size: 35px;
+    font-weight: bold;
+    font-family: "Gill Sans MT","sans-serif";
+    color: #fefdff;
+    text-shadow: 2px 4px 3px rgba(254, 253, 255, 0.42);
+}
+@media screen and (max-width: 1200px){
+    .blog .row {
+        padding-top: 200px;
+    }
+}
+@media screen and (max-width: 576px){
+    .blog .row {
+        padding-top: 100px;
+    }
+}
+@media screen and (max-width: 576px){
+    .blog p{
+        font-size: 15px;
+
+    }
+}
+@media screen and (max-width: 576px){
+    .blog .card{
+        height: 170px;
+        width: 100%;
+
+    }
+}
+
+
+
+/*about*/
+.about{
+    background-image: url("../img/about-bg-11.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+}
+.about .cover{
+    background: rgba(254, 254, 254, 0.9);
+    height: 100%;
+}
+.about .container-fluid{
+    height: 850px;
+}
+.about .general{
+    padding-top: 110px;
+}
+.about p {
+    font-family: "Luminary","fantasy";
+    font-size: 25px;
+    line-height: 2.0;
+}
+@media screen and (max-width: 992px){
+    .about p{
+        font-size: 23px;
+    }
+}
+@media screen and (max-width: 576px){
+    .about p{
+        font-size: 21px;
+    }
+}
+.about .t-1{
+    border-top: 2px solid red;
+}
+.about .t-2{
+    border-bottom: 2px solid red;
+}
+.about span {
+    color: red;
+    font-weight: bold;
+}
+
+
+.footer{
+    background: rgba(9, 137, 194, 0.49);
+}
+.footer .r1{
+    padding-top: 50px;
+}
+.footer .r2{
+    padding-bottom: 50px;
+}
+.footer p{
+    font-size: 30px;
+    font-family: "Gill Sans MT","sans-serif";
+
+    color: #090759;
+    text-shadow: 2px 4px 3px rgba(9, 7, 89, 0.52)
+}

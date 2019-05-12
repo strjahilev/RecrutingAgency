@@ -1,0 +1,214 @@
+body{
+    background-image: url("../img/training-bg-91.jpg");
+    background-attachment: fixed;
+
+}
+/*навигация*/
+.navbar{
+    background: rgba(9, 129, 181, 0.1);
+    font-size: 20px;
+
+}
+.navbar .work-a{
+    font-size: 30px;
+}
+.navbar p{
+    color: #090759;
+    -webkit-text-fill-color: #090759;
+    -webkit-text-stroke: 1px red;
+}
+.navbar a{
+    color: #090759;
+    -webkit-text-fill-color: #090759;
+    -webkit-text-stroke: 1px red;
+}
+.navbar .navbar-toggler{
+    background: rgb(9,129,181);
+    color: red;
+}
+.navbar .inner{
+    border-right: 2px solid;
+    border-right-color: #090759;
+    -webkit-text-fill-color: #090759;
+    -webkit-text-stroke: 1px red;
+}
+
+
+
+.training .c-1 {
+    background: rgba(254, 254, 254, 0.85);
+    height: 600px;
+}
+@media screen and (max-width: 1200px){
+    .training .c-1{
+        height: 800px;
+    }
+    .training .h5{
+        font-size: 20px;
+    }
+}
+@media screen and (max-width: 992px){
+    .training .c-1{
+        height: 1000px;
+    }
+
+}
+@media screen and (max-width: 768px){
+    .training .c-1 {
+        height: 1000px;
+    }
+}
+@media screen and (max-width: 576px) {
+    .training .c-1{
+        height: 1200px;
+    }
+    .training {
+        height: 1200px;
+    }
+    .header .wrapper{
+        margin-top: 250px;
+        padding-top: 50px;
+    }
+}
+
+.training .wrapper{
+    height: auto;
+    margin-top: 100px;
+    margin-bottom: 20px;
+    /*margin-left: 100px;*/
+    /*margin-right: 100px;*/
+    border: red 3px solid;
+}
+.training h5{
+    font-size: 25px;
+    color: #090759;
+    text-align: justify;
+    font-family: "Luminary","fantasy";
+    line-height: 2.0;
+}
+.training p{
+    font-size: 20px;
+    font-weight: bold;
+    font-family: "Luminary","fantasy";
+    line-height: 2.0;
+
+}
+.training ul{
+    padding-left: 50px;
+    font-size: 20px;
+    font-family: "Luminary","fantasy";
+    line-height: 2.0;
+}
+.pre-price {
+    background: rgb(254,254,254);
+}
+.pre-price .row{
+    background: rgba(255, 0, 0, 0.24);
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.pre-price h2{
+    font-size: 80px;
+    color: #090759;
+    text-shadow: 2px 4px 3px rgba(9, 7, 89, 0.52);
+    font-family: "Gill Sans MT","sans-serif";
+}
+.price .row{
+    background: rgba(9,129,181,0.93);
+    height: 750px;}
+.price .card{
+    margin-top: 100px;
+
+}
+.price p{
+    font-size: 20px;
+    color: #090759;
+    font-family: "Luminary","fantasy";
+}
+.price ul{
+    font-size: 25px;
+    font-family: "Luminary","fantasy";
+    line-height: 2.0;
+}
+.price h5{
+    font-size: 30px;
+    color: #090759;
+    text-shadow: 2px 4px 3px rgba(9, 7, 89, 0.52);
+    font-family: "Gill Sans MT","sans-serif";
+}
+@media screen and (max-width: 992px){
+    .price h5{
+        font-size: 20px;
+    }
+    .price ul{
+        font-size: 15px;
+    }
+    .price h6{
+        font-size: 15px;
+    }
+    .price .row{
+        height: 600px;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .price .row{
+        height: 100%;
+    }
+    .price .card{
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+}
+.price h6{
+    font-size: 25px;
+    font-family: "Luminary","fantasy";
+    line-height: 2.0;
+    color: red;
+    font-weight: bold;
+}
+
+.contact-form .row{
+    background: rgb(254,254,254);
+    height: 600px;
+
+}
+@media screen and (max-width: 576px) {
+    .contact-form .row{
+        height: 1000px;
+    }
+    .contact-form{
+        height: 1000px;
+    }
+}
+.contact-form h2{
+    background: rgba(255, 0, 0, 0.24);
+    padding-top: 50px;
+    font-size: 80px;
+    color: #090759;
+    text-shadow: 2px 4px 3px rgba(9, 7, 89, 0.52);
+    font-family: "Gill Sans MT","sans-serif";
+}
+.contact-form p{
+    font-size: 25px;
+    font-family: "Luminary","fantasy";
+    line-height: 2.0;
+
+}
+.contact-form .tf{
+    border: red 3px solid;
+    margin-bottom: 20px;
+}
+.contact-form label{
+    font-size: 1em;
+    font-family: "Luminary","fantasy";
+}
+.contact-form span{
+    color:red;
+    font-weight: bold;
+}
+.contact-form .btn{
+    background: rgb(9,129,181);
+    color: red;
+    font-weight: bold;
+}

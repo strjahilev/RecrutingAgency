@@ -1,0 +1,75 @@
+body{
+    background-image: url("../img/training-bg-3.jpg");
+    background-attachment: fixed;
+
+}
+/*навигация*/
+.navbar{
+    background: rgba(9, 129, 181, 0.1);
+    font-size: 20px;
+
+}
+.navbar .work-a{
+    font-size: 30px;
+}
+
+.navbar p{
+    color: #090759;
+    -webkit-text-fill-color: #090759;
+    -webkit-text-stroke: 1px red;
+}
+.navbar a{
+    color: #090759;
+    -webkit-text-fill-color: #090759;
+    -webkit-text-stroke: 1px red;
+}
+.navbar .navbar-toggler{
+    background: rgb(9,129,181);
+    color: red;
+}
+.navbar .inner{
+    border-right: 2px solid;
+    border-right-color: #090759;
+    -webkit-text-fill-color: #090759;
+    -webkit-text-stroke: 1px red;
+}
+
+.contact-form{
+    background: rgba(254,254,254,0.7);
+    background-size: cover;
+    margin-top: 100px;
+    border: red 3px solid;
+}
+.contact-form .cover{
+    background: rgb(255,255,255);
+    padding: 0px;
+    margin: 0px;
+}
+.contact-form .h2{
+    background: rgba(255, 0, 0, 0.24);
+    padding-top: 50px;
+    margin-bottom: 0px;
+    padding-bottom: 50px;
+    font-size: 80px;
+    color: #090759;
+    text-shadow: 2px 4px 3px rgba(9, 7, 89, 0.52);
+    font-family: "Gill Sans MT","sans-serif";
+}
+.contact-form .tf{
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+.contact-form label{
+    font-size: 2em;
+    font-family: "Luminary","fantasy";
+}
+
+.contact-form span{
+    color:red;
+    font-weight: bold;
+}
+.contact-form .btn{
+    background: rgb(9,129,181);
+    color: red;
+    font-weight: bold;
+}
