@@ -39,20 +39,23 @@ body{
     margin-top: 100px;
     border: red 3px solid;
     }
-.search-job .row{
-    padding-left: 20px;
-    padding-top: 10px;
-    padding-right: 20px;
-    padding-bottom: 10px;
+
+.search-job .cover{
+    background: rgb(255,255,255);
+    padding: 0px;
+    margin: 0px;
 }
-.search-job .job2{
-    border-top: red 3px solid;
-}
-.search-job h5{
-    font-size: 25px;
-    font-weight: bold;
-    font-family: "Gill Sans MT","sans-serif";
+
+.search-job h2{
+    background: rgba(255, 0, 0, 0.24);
+    padding-top: 50px;
+    margin-bottom: 0px;
+    padding-bottom: 50px;
+    font-size: 80px;
     color: #090759;
+    text-shadow: 2px 4px 3px rgba(9, 7, 89, 0.52);
+   font-family: "Gill Sans MT","sans-serif";
+
 }
 .search-job p{
     font-size: 25px;
@@ -61,24 +64,31 @@ body{
     text-align: justify;
 }
 .search-job button{
+    margin-bottom: 20px;
     background: rgb(9,129,181);
     color: red;
     font-weight: bold;
 }
-.search-job input{
-    transform:scale(2.3);
+.footer {
+    background: rgb(255,255,255);
 }
-.search-job label {
-    font-size: 25px;
-    font-weight: bold;
-    font-family: "Gill Sans MT", "sans-serif";
+.footer .container-fluid{
+    background: rgba(9, 137, 194, 0.49);
+}
+.footer .r1{
+    padding-top: 50px;
+    margin-left: 100px;
+}
+.footer .r2{
+    padding-bottom: 50px;
+    margin-left: 100px;
+}
+.footer p{
+    font-size: 30px;
+    font-family: "Gill Sans MT","sans-serif";
+
     color: #090759;
+    text-shadow: 2px 4px 3px rgba(9, 7, 89, 0.52)
 }
 
-.contact-form{
-    background: rgba(254,254,254,0.7);
-    background-size: cover;
-    margin-top: 100px;
-    border: red 3px solid;
-}
 

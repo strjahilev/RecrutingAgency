@@ -55,21 +55,20 @@ body{
     text-shadow: 2px 4px 3px rgba(9, 7, 89, 0.52);
     font-family: "Gill Sans MT","sans-serif";
 }
-.contact-form .tf{
+.contact-form .prof-text{
     padding-top: 50px;
     padding-bottom: 30px;
 }
-.contact-form label{
+.contact-form p{
     font-size: 2em;
     font-family: "Luminary","fantasy";
+    text-align: justify;
+    line-height: 1.5;
 }
-
-.contact-form span{
-    color:red;
-    font-weight: bold;
-}
-.contact-form .btn{
+.contact-form button{
+    margin-bottom: 20px;
     background: rgb(9,129,181);
     color: red;
     font-weight: bold;
 }
+

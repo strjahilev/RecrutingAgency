@@ -98,11 +98,16 @@
     padding-top: 30px;
 }
 .h-1 p{
-    font-size: 70px;
+    font-size: 40px;
+}
+@media screen and (max-width: 1200px){
+    .h-1 p{
+        font-size:35px;
+    }
 }
 @media screen and (max-width: 992px ){
     .h-1 p{
-        font-size: 50px;
+        font-size: 35px;
     }
 }
 @media screen and (max-width: 768px ){
@@ -112,10 +117,10 @@
 }
 @media screen and (max-width: 576px ){
     .h-1 p{
-        font-size: 40px;
+        font-size: 30px;
     }
     .h-1 .row{
-        padding-top: 60px;
+        padding-top: 40px;
     }
 }
 .h-1 p{
